@@ -44,6 +44,7 @@ label {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 800;
   font-size: 1rem;
+  margin-bottom: 10px;
 }
 
 dt {
@@ -63,6 +64,10 @@ dd {
 #infoContainer {
   border-style: solid;
   padding: 10px;
+}
+
+select {
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 700px) {
