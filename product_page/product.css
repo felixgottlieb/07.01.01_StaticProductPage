@@ -8,6 +8,12 @@ header {
   grid-template-columns: 1fr;
 }
 
+main {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
 h1 {
   font-family: "Rampart One", cursive;
   color: black;
@@ -23,9 +29,14 @@ h2 {
   margin-bottom: 1vh;
 }
 
+h3 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
 img {
   width: 500px;
-  height: auto;
 }
 
 label {
@@ -45,4 +56,5 @@ dd {
   font-weight: 300;
   font-size: 1rem;
   margin-left: 0;
+  margin-bottom: 1vh;
 }
