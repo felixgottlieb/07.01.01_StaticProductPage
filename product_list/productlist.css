@@ -1,0 +1,17 @@
+body {
+  background-color: #faf3dd;
+}
+
+header {
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+h1 {
+  font-family: "Rampart One", cursive;
+  color: black;
+  font-size: 50px;
+  justify-self: center;
+  align-self: center;
+}
