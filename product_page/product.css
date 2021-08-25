@@ -17,7 +17,7 @@ main {
 h1 {
   font-family: "Rampart One", cursive;
   color: black;
-  font-size: 3.5rem;
+  font-size: 3rem;
   justify-self: center;
   align-self: center;
 }
@@ -26,7 +26,8 @@ h2 {
   font-family: "Rampart One", cursive;
   font-weight: 200;
   font-size: 1.5rem;
-  margin-bottom: 1vh;
+  margin-bottom: 3vh;
+  border-bottom: 1px solid;
 }
 
 h3 {
@@ -36,7 +37,7 @@ h3 {
 }
 
 img {
-  width: 500px;
+  width: 650px;
 }
 
 label {
@@ -57,4 +58,20 @@ dd {
   font-size: 1rem;
   margin-left: 0;
   margin-bottom: 1vh;
+}
+
+#infoContainer {
+  border-style: solid;
+  padding: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  img {
+    width: 500px;
+  }
 }
