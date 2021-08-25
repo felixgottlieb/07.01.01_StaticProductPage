@@ -37,10 +37,11 @@ h2 {
 
 main {
   display: grid;
+  margin-top: 5vh;
   margin-left: 15vw;
   margin-right: 15vw;
   margin-bottom: 10vh;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 1rem;
 }
 
