@@ -1,0 +1,48 @@
+body {
+  background-color: #faf3dd;
+}
+
+header {
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+h1 {
+  font-family: "Rampart One", cursive;
+  color: black;
+  font-size: 3.5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+h2 {
+  font-family: "Rampart One", cursive;
+  font-weight: 200;
+  font-size: 1.5rem;
+  margin-bottom: 1vh;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+label {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+dt {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+dd {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-left: 0;
+}
