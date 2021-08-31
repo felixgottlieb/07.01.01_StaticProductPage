@@ -53,24 +53,45 @@ p {
   font-weight: 400;
 }
 
-.onsale {
+.onsale,
+span {
   display: none;
 }
 
-.product {
+article {
   max-width: 300px;
   border-style: solid;
   border-width: 1px;
   padding: 3px;
 }
 
-a {
+.product_soldout img {
+  opacity: 0.5;
+}
+
+.product_soldout::before {
+  content: "sold out";
+  position: absolute;
+  font-size: 2rem;
+}
+
+.product_onsale .onsale {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_onsale span {
+  display: initial;
+}
+
+.product_soldout .product a {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 100;
   color: black;
   border-bottom: 1px;
 }
 
-span {
-  display: none;
+#sale_percentage {
+  color: red;
+  background-color: white;
 }

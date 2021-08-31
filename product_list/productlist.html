@@ -20,21 +20,23 @@
     <main>
       <h2>SUMMER CLOTHING</h2>
       <div id="productList">
-        <article class="product">
-          <img
-            src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
-            alt=""
-          />
-          <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
-          <p class="brand">Nike</p>
-          <p class="price"><span>Was</span> DK 895:-</p>
-          <div class="onsale">
-            <p>Now DK 1000:-</p>
-            <p>-28%</p>
-          </div>
-          <a href="/product_page/product.html">To product page</a>
-        </article>
-        <article class="product">
+        <template id="product_template">
+          <article class="product">
+            <img
+              src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
+              alt=""
+            />
+            <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
+            <p class="brand">Nike</p>
+            <p class="price"><span>Was</span> DK 895:-</p>
+            <div class="onsale">
+              <p>Now DK 1000:-</p>
+              <p>-28%</p>
+            </div>
+            <a href="/product_page/product.html">To product page</a>
+          </article>
+        </template>
+        <!-- <article class="product">
           <img
             src="https://kea-alt-del.dk/t7/images/webp/640/1531.webp"
             alt=""
@@ -76,7 +78,7 @@
           </div>
           <a href="/product_page/product.html">To product page</a>
         </article>
-        <article class="product">
+        <article class="product_soldout">
           <img
             src="https://kea-alt-del.dk/t7/images/webp/1000/1548.webp"
             alt=""
@@ -90,7 +92,7 @@
           </div>
           <a href="/product_page/product.html">To product page</a>
         </article>
-        <article class="product">
+        <article class="product_onsale">
           <img
             src="https://kea-alt-del.dk/t7/images/webp/640/1561.webp"
             alt=""
@@ -100,7 +102,7 @@
           <p class="price"><span>Was</span> DK 499:-</p>
           <div class="onsale">
             <p>Now DK 1000:-</p>
-            <p>-28%</p>
+            <p id="sale_percentage">-28%</p>
           </div>
           <a href="/product_page/product.html">To product page</a>
         </article>
@@ -131,8 +133,9 @@
             <p>-28%</p>
           </div>
           <a href="/product_page/product.html">To product page</a>
-        </article>
+        </article> -->
       </div>
     </main>
+    <script src="productlist.js"></script>
   </body>
 </html>
