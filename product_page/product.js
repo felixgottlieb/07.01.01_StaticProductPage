@@ -1,4 +1,6 @@
-const url = "https://kea-alt-del.dk/t7/api/products/2801";
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get("id");
+const url = "https://kea-alt-del.dk/t7/api/products/" + id;
 
 //fetch the data
 fetch(url)
@@ -9,6 +11,15 @@ fetch(url)
 
 function showProduct(product) {
   console.log(product);
+
+  document.querySelector(".category").textContent = product.season;
+  document.querySelector(".productName").textContent =
+    product.productdisplayname;
+
+  //NOT WORKING - adding dynamic link to breadcrums
+  // document
+  //   .querySelector("a .category_link")
+  //   .setAttribute("href", "/product_list/productlist.html/" + product.season);
 
   document.querySelector(
     "img.productImage"
