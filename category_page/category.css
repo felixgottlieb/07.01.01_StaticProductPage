@@ -42,7 +42,7 @@ main {
   margin-right: 15vw;
   margin-bottom: 10vh;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 3rem;
 }
 
 @media screen and (max-width: 700px) {
